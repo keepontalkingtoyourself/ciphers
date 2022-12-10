@@ -10,6 +10,7 @@ def encrypt(message):
 
 
 def main():
+    print("«Шифр Атбаш»")
     message = input("Текст:\n→ ")
     print(f"Результат:\n{encrypt(message)}")
 
