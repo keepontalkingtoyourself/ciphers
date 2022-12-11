@@ -36,8 +36,8 @@ def main():
         idx = 0
         p = int(p)
 
-        if len(text) % 6 != 0:
-            text += "*" * ((len(text) // 6 + 1) * 6 - len(text))
+        if len(text) % p != 0:
+            text += "*" * ((len(text) // p + 1) * p - len(text))
 
         l = len(text)
 
